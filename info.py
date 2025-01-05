@@ -41,7 +41,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002340781909') # give your force s
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request File With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001722189873')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002281772959')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
@@ -88,7 +88,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/KF_requestgroup')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MSD111322')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/KFCINEMAS')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KFCINEMAS') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ask_any_Movie_1')
