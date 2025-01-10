@@ -127,7 +127,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'yamlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c2adb8e5ff82ba5a8b0c0b2dd93fd283f740b960')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f552b69d7e93cb8a5ff6c5fb0e5d45c978c54cc1')
 TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
